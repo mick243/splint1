@@ -17,8 +17,5 @@ const wrap = document.getElementsByClassName('wrap')[0]; // 보일 영역
                 }
                 console.log(e.deltaY)
                 wrap.style.top = page * -100 + 'vh';
-<<<<<<< HEAD
             },{passive:false}); // 디폴트 기능 제거 - 스크롤
-=======
-            },{passive:false}); // 디폴트 기능 제거 - 스크롤
->>>>>>> 85b42444dd91d35d7587a2aab6c10b1ccf6e30e1
+
